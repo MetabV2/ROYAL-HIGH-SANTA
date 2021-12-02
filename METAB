@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local InsertedObjects = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
@@ -35,7 +31,7 @@ local ImageLabel_2 = Instance.new("ImageLabel")
 --Properties:
 
 InsertedObjects.Name = "InsertedObjects"
-InsertedObjects.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+InsertedObjects.Parent = game.CoreGui
 InsertedObjects.ResetOnSpawn = false
 
 ImageButton.Parent = InsertedObjects
